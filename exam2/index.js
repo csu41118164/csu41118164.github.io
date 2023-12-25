@@ -14,3 +14,9 @@ function onclick2(){
 function onclick3(){
   $("#image").attr("src","https://raw.githubusercontent.com/csu41118164/csu41118164.github.io/main/exam1/P_20231225_150354.jpg");
 };
+function onclick4(){
+  $("#image").fadeOut();
+  setTimeout(function(){
+    $("#image").fadeIn();
+  });
+}
